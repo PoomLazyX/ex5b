@@ -70,8 +70,7 @@
 			   var chk = validate(t);
 				if(chk != null) return chk;
 				var pc = Temperatureconversion(t,u);
-
-				alert("Temperature is "+pc.t1+" in "+pc.u1);
+				document.getElementById("result").innerHTML = ("Temperature is "+pc.t1+" in "+pc.u1);
 			});
 		});
 	</script>
